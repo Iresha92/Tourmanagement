@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author ishk
+ */
+public class Tour {
+    public int tourID;
+    public String tourDate;
+
+    
+    Tour(int tourID){
+      this.setTourID(tourID);
+    }
+    
+    public int getTourID() {
+        return tourID;
+    }
+
+    public void setTourID(int tourID) {
+        this.tourID = tourID;
+    }
+    public String getTourDate() {
+        return tourDate;
+    }
+
+    public void setTourDate(String tourDate) {
+        this.tourDate = tourDate;
+    }
+}
