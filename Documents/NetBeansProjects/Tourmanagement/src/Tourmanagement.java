@@ -4,6 +4,7 @@ import java.lang.*;
 public class Tourmanagement {
     
     public static void main(String[] args) {
+        
       List<Town> towns=new ArrayList<Town>();
       Manager manager =new Manager();
       List list = new ArrayList();
